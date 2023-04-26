@@ -14,8 +14,10 @@ We decided to use the model as the UniAD could be implemented under n-vs-rest da
 ## Tips for folder
 
 0. AA samples
-* `10_model`: pretrained ResNet18 on CIFAR-10 and AA samples. Please check `readme_cifar10` for more info
-* `100_model`: ResNet18 on CIFAR-100 and AA samples. Please check `readme_cifar100` for more info
+* `10_model`: pretrained ResNet18 on CIFAR-10 and AA samples. 
+* `100_model`: ResNet18 on CIFAR-100 and AA samples. 
+Please check `readme_cifar10` and `readme_cifar100` first
+
 1. experiment
 
 eval_torch and train_torch are used to run the model
