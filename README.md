@@ -3,7 +3,7 @@
 
 Gourp member: Juxin Fa 1786677 Tong Liu 1584195 Zihao Huang 1779842
 
-##Purpose
+## Purpose
 
 The purpose of the project is to find ResNet-18 classification accuracy on CIFAR-10, AA attack rate on the pre-trained ResNet-18 and AA adversarial samples detection rate. The anomaly detection model is based on Official PyTorch Implementation of [A Unified Model for Multi-class Anomaly Detection](https://arxiv.org/abs/2206.03687), Accepted by NeurIPS 2022 Spotlight.
 
