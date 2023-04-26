@@ -13,7 +13,7 @@ We decided to use the model as the UniAD could be implemented under n-vs-rest da
 
 ## Tips for folder
 
-1.experiment
+1. experiment
 
 eval_torch and train_torch are used to run the model
 
