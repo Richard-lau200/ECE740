@@ -9,7 +9,7 @@ The model is from https://github.com/weiaicunzai/pytorch-cifar100.git with the c
 python train.py -net resnet18 -gpu
 ```
 The checkpoints are stored in `checkpoint`. Normally, the weights file with the best accuracy would be written to the disk with name suffix 'best'. 
-My default weights file is `resnet18-197-best.pth`
+My default weights file is `18_on_100.pth`
 
 You can est the model using test.py
 ```bash
