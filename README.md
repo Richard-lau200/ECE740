@@ -16,7 +16,7 @@ We decided to use the model as the UniAD could be implemented under n-vs-rest da
 0. AA samples
 * `10_model`: pretrained ResNet18 on CIFAR-10 and AA samples. 
 * `100_model`: ResNet18 on CIFAR-100 and AA samples. 
-Please check `readme_cifar10` and `readme_cifar100` first
+Please check `readme_cifar10` and `readme_cifar100` first. The trained ResNet18 models are available [here](https://www.kaggle.com/datasets/jaxonlaw/resnet18-on-cifar)
 
 1. experiment
 
