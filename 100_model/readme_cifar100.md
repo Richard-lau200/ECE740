@@ -4,7 +4,7 @@ This document is based on `README.md` in the repository mentioned below.
 
 The model is from https://github.com/weiaicunzai/pytorch-cifar100.git with the ccuracy aounrd 76%
 
-1. Use the command below to train the model
+1. Use the command below to train the model.
 ```bash
 python train.py -net resnet18 -gpu
 ```
