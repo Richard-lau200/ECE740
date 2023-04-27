@@ -52,22 +52,22 @@ evaluation helper
 
 ## Instruction
 
-## 1. CIFAR-10 dataset directory
+## 1. CIFAR-10 and ICFAR-100 dataset directories
 
 
 Download the CIFAR-10 and CIFAR-100 dataset from [here](http://www.cs.toronto.edu/~kriz/cifar.html). Unzip the file and move some to `./data/CIFAR-10/` and `./data/CIFAR-100/` seperately. 
 
-## 2. cd experiment 
+## 2. Set up the experiment 
 
 For CIFAR-10:
 
-* Change to the original folder with 'cd ./experiments/CIFAR-10/01234/', which means the author considers labels 0, 1, 2, 3, and 4 as normal and the others as anomalies.
+* Change to the original folder with `cd ./experiments/CIFAR-10/01234/`, which means the author considers labels 0, 1, 2, 3, and 4 as normal and the others as anomalies.
 
-* To perform anomaly detection on AutoAttack adversarial samples of CIFAR-10, use the command cd ./experiments/CIFAR-10/02468/. Then, run combined_method2.py under ./data/CIFAR-10/cifar-10-batches-py/ to combine the clean CIFAR-10 test set and adversarial samples generated from step 2, and create a new dataset. Finally, update the test_list of the CIFAR-10 dataset in ECE740/datasets/cifar_dataset.py/.
+* To perform anomaly detection on AutoAttack adversarial samples of CIFAR-10, use the command` cd ./experiments/CIFAR-10/02468/`. Then, run combined_method2.py under `./data/CIFAR-10/cifar-10-batches-py/` to combine the clean CIFAR-10 test set and adversarial samples generated from step 2, and create a new dataset. Finally, update the test_list of the CIFAR-10 dataset in `ECE740/datasets/cifar_dataset.py/`.
 
 For CIFAR-100:
 
-* Change to the original folder with cd ./experiments/CIFAR-10/13579/. Then, run combined_method2.py under ./data/CIFAR-100/cifar-100-python/ to combine the clean CIFAR-100 test set and adversarial samples generated from step 2, and create a new dataset. Finally, update the test_list of the CIFAR-100 dataset in ECE740/datasets/custom_dataset.py/.
+* Change to the original folder with `cd ./experiments/CIFAR-10/13579/`. Then, run combined_method2.py under `./data/CIFAR-100/cifar-100-python/` to combine the clean CIFAR-100 test set and adversarial samples generated from step 2, and create a new dataset. Finally, update the test_list of the CIFAR-100 dataset in `ECE740/datasets/custom_dataset.py/`.
 
 ## 3. training and testing
 
