@@ -56,7 +56,10 @@ Download the CIFAR-10 and CIFAR-100 dataset from [here](http://www.cs.toronto.ed
 ## 2. cd experiment 
 
 `cd ./experiments/CIFAR-10/01234/` is the original folder which means the author regards label 0,1,2,3,4 as the normal label and others are anormaly.
-IfIf you want to do anomaly detection on the auto attack adversarial sample of CIFAR-10, you need to use the instruction `cd ./experiments/CIFAR-10/02468/` you want to do anomaly detection on the auto attack adversarial sample of CIFAR-100, you need to use the instruction `cd ./experiments/CIFAR-10/13579/`
+
+If you want to do anomaly detection on the auto attack adversarial sample of CIFAR-10, you need to use the instruction `cd ./experiments/CIFAR-10/02468/`. 
+
+If you want to do anomaly detection on the auto attack adversarial sample of CIFAR-100, you need to use the instruction `cd ./experiments/CIFAR-10/13579/`
 
 ## 3. training and testing
 
