@@ -43,8 +43,8 @@ evaluation helper
 6. dataset
 
 cifar-10-batches-py(\UniAD\data\CIFAR-10\cifar-10-batches-py) is used to combine the clean dataset and adversarial sample.  
-cifar_dataset(\UniAD\datasets\custom_dataset)is used to load CIFAR-10
-custom_dataset(\UniAD\dataset\custom_datasets)is used to load CIFAR-100
+cifar_dataset(\UniAD\datasets\custom_dataset)is used to load CIFAR-10 in the training and testing
+custom_dataset(\UniAD\dataset\custom_datasets)is used to load CIFAR-100 in the training and testing
 
 ## Instruction
 
