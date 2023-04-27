@@ -44,11 +44,11 @@ evaluation helper
 
 ### 6.dataset
 
-cifar-10-batches-py(\UniAD\data\CIFAR-10\cifar-10-batches-py) is used to combine the clean dataset and adversarial sample.
+* cifar-10-batches-py(\UniAD\data\CIFAR-10\cifar-10-batches-py) is used to combine the clean dataset and adversarial sample.
 
-cifar_dataset(\UniAD\datasets\custom_dataset)is used to load CIFAR-10 in the training and testing
+* cifar_dataset(\UniAD\datasets\custom_dataset)is used to load CIFAR-10 in the training and testing
 
-custom_dataset(\UniAD\dataset\custom_datasets)is used to load CIFAR-100 in the training and testing
+* custom_dataset(\UniAD\dataset\custom_datasets)is used to load CIFAR-100 in the training and testing
 
 ## Instruction
 
@@ -59,11 +59,11 @@ Download the CIFAR-10 and CIFAR-100 dataset from [here](http://www.cs.toronto.ed
 
 ## 2. cd experiment 
 
-`cd ./experiments/CIFAR-10/01234/` is the original folder which means the author regards label 0,1,2,3,4 as the normal label and others are anormaly.
+* `cd ./experiments/CIFAR-10/01234/` is the original folder which means the author regards label 0,1,2,3,4 as the normal label and others are anormaly.
 
-If you want to do anomaly detection on the auto attack adversarial sample of CIFAR-10, you need to use the instruction `cd ./experiments/CIFAR-10/02468/`.Then used combined_method2.py under `./data/CIFAR-10/cifar-10-batches-py/` to combine the clean CIFAR-10 testset and adversarial sample generated from step2 and generate a new dataset. Fiannly, implement the name into `test_list` of CIFAR-10 dataset where `ECE740/datasets/cifar_dataset.py/`
+* If you want to do anomaly detection on the auto attack adversarial sample of CIFAR-10, you need to use the instruction `cd ./experiments/CIFAR-10/02468/`.Then used combined_method2.py under `./data/CIFAR-10/cifar-10-batches-py/` to combine the clean CIFAR-10 testset and adversarial sample generated from step2 and generate a new dataset. Fiannly, implement the name into `test_list` of CIFAR-10 dataset where `ECE740/datasets/cifar_dataset.py/`
 
-If you want to do anomaly detection on the auto attack adversarial sample of CIFAR-100, you need to use the instruction `cd ./experiments/CIFAR-10/13579/`.Then used combined_method2.py under `./data/CIFAR-100/cifar-100-python/` to combine the clean CIFAR-100 testset and adversarial sample generated from step2 and generate a new dataset. Fiannly, implement the name into `test_list` of CIFAR-10 dataset where `ECE740/datasets/custom_dataset.py/`
+* If you want to do anomaly detection on the auto attack adversarial sample of CIFAR-100, you need to use the instruction `cd ./experiments/CIFAR-10/13579/`.Then used combined_method2.py under `./data/CIFAR-100/cifar-100-python/` to combine the clean CIFAR-100 testset and adversarial sample generated from step2 and generate a new dataset. Fiannly, implement the name into `test_list` of CIFAR-10 dataset where `ECE740/datasets/custom_dataset.py/`
 
 ## 3. training and testing
 
