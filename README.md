@@ -5,11 +5,11 @@ Gourp member: Juxin Fa 1786677 Tong Liu 1584195 Zihao Huang 1779842
 
 ## Purpose
 
-The purpose of the project is to find ResNet-18 classification accuracy on CIFAR-10, AA attack rate on the pre-trained ResNet-18 and AA adversarial samples detection rate. The anomaly detection model is based on Official PyTorch Implementation of [A Unified Model for Multi-class Anomaly Detection](https://arxiv.org/abs/2206.03687), Accepted by NeurIPS 2022 Spotlight.
+The purpose of the project is to find ResNet-18 classification accuracy on both CIFAR-10 and CIFAR-100, AA attack rate on the pre-trained ResNet-18 and AA adversarial samples detection rate. The anomaly detection model is based on Official PyTorch Implementation of [A Unified Model for Multi-class Anomaly Detection](https://arxiv.org/abs/2206.03687), Accepted by NeurIPS 2022 Spotlight.
 
 ## Auto Attack adversarial samples detection rate Process
 
-We decided to use the model as the UniAD could be implemented under n-vs-rest datasets, which is more efficient and visual to train and test the model. During training, we will use the clean CIFAR-10 trainingset with labeled 0-9. During testing, we will use the combination of clean CIFAR-10 testingset with labeled 0-9 and adversarial sample labeled 10. In this way, the model can detect the Auto Attack adversarial samples. Same as CIFAR-100
+We decided to use the model as the UniAD could be implemented under n-vs-rest datasets, which is more efficient and visual to train and test the model. During training, we will use the clean CIFAR-10 trainingset with labeled 0-9. During testing, we will use the combination of clean CIFAR-10 testingset with labeled 0-9 and adversarial sample labeled 10. In this way, the model can detect the Auto Attack adversarial samples. Same as CIFAR-100.
 
 ## Tips for folder
 
@@ -29,7 +29,7 @@ it is the repository of CIFAR-10 and CIFAR-100 dataset
 
 3. models
 
-Folder with the main structure of the model
+folder with the main structure of the model
 
 4. tools
 
