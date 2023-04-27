@@ -20,30 +20,32 @@ We decided to use the model as the UniAD could be implemented under n-vs-rest da
 
 Please check `readme_cifar10` and `readme_cifar100` first. The trained ResNet18 models are also available [here](https://www.kaggle.com/datasets/jaxonlaw/resnet18-on-cifar)
 
-1. experiment
+1.experiment
 
 eval_torch and train_torch are used to run the model
 
-2. data
+2.data
 
 it is the repository of CIFAR-10 and CIFAR-100 dataset
 
-3. models
+3.models
 
 folder with the main structure of the model
 
-4. tools
+4.tools
 
 train_val(UniAD\tools) implement training and testing code
 
-5. utils
+5.utils
 
 evaluation helper
 
 6. dataset
 
-cifar-10-batches-py(\UniAD\data\CIFAR-10\cifar-10-batches-py) is used to combine the clean dataset and adversarial sample.  
+cifar-10-batches-py(\UniAD\data\CIFAR-10\cifar-10-batches-py) is used to combine the clean dataset and adversarial sample.
+
 cifar_dataset(\UniAD\datasets\custom_dataset)is used to load CIFAR-10 in the training and testing
+
 custom_dataset(\UniAD\dataset\custom_datasets)is used to load CIFAR-100 in the training and testing
 
 ## Instruction
