@@ -36,7 +36,7 @@ folder with the main structure of the model
 
 ### 4.tools
 
-train_val(UniAD\tools) implement training and testing code
+train_val(`UniAD\tools`) implement training and testing code
 
 ### 5.utils
 
