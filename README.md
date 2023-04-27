@@ -59,11 +59,15 @@ Download the CIFAR-10 and CIFAR-100 dataset from [here](http://www.cs.toronto.ed
 
 ## 2. cd experiment 
 
-* `cd ./experiments/CIFAR-10/01234/` is the original folder which means the author regards label 0,1,2,3,4 as the normal label and others are anormaly.
+For CIFAR-10:
 
-* If you want to do anomaly detection on the auto attack adversarial sample of CIFAR-10, you need to use the instruction `cd ./experiments/CIFAR-10/02468/`.Then used combined_method2.py under `./data/CIFAR-10/cifar-10-batches-py/` to combine the clean CIFAR-10 testset and adversarial sample generated from step2 and generate a new dataset. Fiannly, implement the name into `test_list` of CIFAR-10 dataset where `ECE740/datasets/cifar_dataset.py/`
+* Change to the original folder with 'cd ./experiments/CIFAR-10/01234/', which means the author considers labels 0, 1, 2, 3, and 4 as normal and the others as anomalies.
 
-* If you want to do anomaly detection on the auto attack adversarial sample of CIFAR-100, you need to use the instruction `cd ./experiments/CIFAR-10/13579/`.Then used combined_method2.py under `./data/CIFAR-100/cifar-100-python/` to combine the clean CIFAR-100 testset and adversarial sample generated from step2 and generate a new dataset. Fiannly, implement the name into `test_list` of CIFAR-10 dataset where `ECE740/datasets/custom_dataset.py/`
+* To perform anomaly detection on AutoAttack adversarial samples of CIFAR-10, use the command cd ./experiments/CIFAR-10/02468/. Then, run combined_method2.py under ./data/CIFAR-10/cifar-10-batches-py/ to combine the clean CIFAR-10 test set and adversarial samples generated from step 2, and create a new dataset. Finally, update the test_list of the CIFAR-10 dataset in ECE740/datasets/cifar_dataset.py/.
+
+For CIFAR-100:
+
+* Change to the original folder with cd ./experiments/CIFAR-10/13579/. Then, run combined_method2.py under ./data/CIFAR-100/cifar-100-python/ to combine the clean CIFAR-100 test set and adversarial samples generated from step 2, and create a new dataset. Finally, update the test_list of the CIFAR-100 dataset in ECE740/datasets/custom_dataset.py/.
 
 ## 3. training and testing
 
