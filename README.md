@@ -1,6 +1,8 @@
 # ECE740 Final Project
 
-UniAED: Unified Adversarial Examples Detection Using Anomaly Detection for Multiple Classes
+## UniAED: Unified Adversarial Examples Detection Using Anomaly Detection for Multiple Classes
+
+A project that aims to detect adversarial examples in CIFAR-10 and CIFAR-100 datasets using anomaly detection techniques.
 
 Gourp member: Juxin Fa 1786677 Tong Liu 1584195 Zihao Huang 1779842
 
@@ -12,35 +14,35 @@ The purpose of the project is to find ResNet-18 classification accuracy on both 
 
 We decided to use the model as the UniAD could be implemented under n-vs-rest datasets, which is more efficient and visual to train and test the model. During training, we will use the clean CIFAR-10 trainingset with labeled 0-9. During testing, we will use the combination of clean CIFAR-10 testingset with labeled 0-9 and adversarial sample labeled 10. In this way, the model can detect the Auto Attack adversarial samples. Same as CIFAR-100.
 
-## Tips for folder
+## Directory Structure
 
-0. AA samples
+### 0. AA samples
 * `10_model`: pretrained ResNet18 on CIFAR-10 and AA samples. 
 * `100_model`: ResNet18 on CIFAR-100 and AA samples. 
 
 Please check `readme_cifar10` and `readme_cifar100` first. The trained ResNet18 models are also available [here](https://www.kaggle.com/datasets/jaxonlaw/resnet18-on-cifar)
 
-1.experiment
+### 1.experiment
 
 eval_torch and train_torch are used to run the model
 
-2.data
+### 2.data
 
 it is the repository of CIFAR-10 and CIFAR-100 dataset
 
-3.models
+### 3.models
 
 folder with the main structure of the model
 
-4.tools
+### 4.tools
 
 train_val(UniAD\tools) implement training and testing code
 
-5.utils
+### 5.utils
 
 evaluation helper
 
-6.dataset
+### 6.dataset
 
 cifar-10-batches-py(\UniAD\data\CIFAR-10\cifar-10-batches-py) is used to combine the clean dataset and adversarial sample.
 
