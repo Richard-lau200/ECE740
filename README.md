@@ -40,7 +40,7 @@ train_val(UniAD\tools) implement training and testing code
 
 evaluation helper
 
-6. dataset
+6.dataset
 
 cifar-10-batches-py(\UniAD\data\CIFAR-10\cifar-10-batches-py) is used to combine the clean dataset and adversarial sample.
 
